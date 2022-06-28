@@ -1,2 +1,2 @@
-# animals_platform_react
+# tnr notification system
 the tnr website (react version)
