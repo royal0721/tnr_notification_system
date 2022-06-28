@@ -1,5 +1,6 @@
 # tnr notification system
- 
+## ref: (old version) Angular: Node.js:
+
 Frontend: React
 
 Backend: Node.js Nest Framework
