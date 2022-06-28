@@ -1,2 +1,6 @@
 # tnr notification system
-the tnr website (react version)
+ 
+Frontend: React
+Backend: Node.js Nest Framwork
+DB:
+Server:
