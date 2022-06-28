@@ -2,11 +2,13 @@
  
 Frontend: React
 
-Backend: Node.js Nest Framwork
+Backend: Node.js Nest Framework
 
 DB:
 
 Server:
+
+# How to run the website?
 
 ---
 Contributor:
