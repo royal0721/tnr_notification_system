@@ -1,31 +1,19 @@
-import { Module,OnModuleInit } from '@nestjs/common';
+import { Module } from '@nestjs/common';
 import { ServeStaticModule } from '@nestjs/serve-static';
 import { join } from 'path';
 import { AppController } from './app.controller';
+import {DocumentController} from './document/document.controller'
 import { AppService } from './app.service';
-import { ApiModule } from './module/api.module';
-import * as path from 'path';
-import { I18nModule } from 'nestjs-i18n';
-
-// 處理 Cookie + i18n
+import { DocumentService } from './document/document.service';
+import TestService from './service/test.service';
 @Module({
   imports: [
     ServeStaticModule.forRoot({
       rootPath: join(__dirname, '..', 'build'),
-      exclude: ['/api/v1*'],
+      exclude: ['/api*'],
     }),
-    //use i18n (try)
-    ApiModule
   ],
-  controllers: [AppController],
-  providers: [AppService]
+  controllers: [AppController,DocumentController],
+  providers: [AppService, DocumentService, TestService]
 })
-export class AppModule implements OnModuleInit{
-  constructor(private appService: AppService) {
-  }
-
-  onModuleInit() {
-    console.log(`Watch the updates`);
-    this.appService.dostuff();
-  }
-}
+export class AppModule {}

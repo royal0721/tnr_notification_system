@@ -1,29 +1,20 @@
-# tnr notification system
-## ref: (old version) 
+## Available Scripts
 
-Angular: 
+In the project directory, you can run:
+### `npm run build:react`
 
-Node.js:
+Build A react App first
+### `npm run build:nest`
+### `npm run start`
 
----
+Runs the app with the node server (Nest.js).\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Frontend: React
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Backend: Node.js Nest Framework
 
-DB:
 
-Server:
 
-# How to run the website?
 
----
-Contributor:
 
-Component Designer:
-
-UI Designer:
-
-Frontend Developer:
-
-Backend Developer:
