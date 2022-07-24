@@ -1,0 +1,54 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@nestjs/cli": "^8.2.6",
+    "@nestjs/common": "^8.1.1",
+    "@nestjs/core": "^8.1.1",
+    "@nestjs/platform-express": "^8.1.1",
+    "@nestjs/serve-static": "^2.2.2",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.2.0",
+    "@testing-library/user-event": "^13.5.0",
+    "nest": "^0.1.6",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-player": "^2.10.1",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^4.6.4",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "start:react": "react-scripts start",
+    "start": "nest start",
+    "build:nest": "nest build",
+    "build:react": "react-scripts build",
+    "test:react": "react-scripts test",
+    "eject:react": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "video.js": "^7.19.2"
+  }
+}
