@@ -1,5 +1,8 @@
 ## Available Scripts
 
+install your node module first:
+### `npm install`
+
 In the project directory, you can run:
 ### `npm run build:react`
 
